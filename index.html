@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Workshop on 3D Point Cloud Processing, Analysis, Compression, and Communication - ICME 2026</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons (optional but good) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">ICME 2026 Workshop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#topics">Topics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dates">Important Dates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#submission">Submission</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">2nd Workshop on 3D Point Cloud Processing, Analysis, Compression, and Communication</h1>
+            <p class="hero-subtitle">Held in conjunction with IEEE ICME 2026</p>
+            <p class="hero-date"><i class="far fa-calendar-alt"></i> July 2026 (Half Day)</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Workshop Description</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 about-text">
+                    <p>Over the past several decades, many researchers have worked toward advancing immersive media technologies, a highly challenging and cutting-edge area of study. However, due to technical constraints and limited computational resources, early prototypes emerged only slowly during the 1980s and 1990s. With recent advances in high-performance computing, high-speed communication, and big data-driven artificial intelligence, immersive media technologies have developed rapidly and are becoming more and more popular in applications such as virtual and augmented reality and immersive 3D telepresence. Currently, immersive media typically includes 3D video, 360-degree video, 3D point clouds, and light fields. Compared with traditional 2D images and videos, these new media forms can significantly improve user experience and have the potential to change daily life.</p>
+                    <p>To promote academic exchange for researchers in the field, this workshop will focus on one of the most prominent forms of immersive media: 3D point clouds. The workshop will address a broad range of technical challenges, including but not limited to:</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Topics Section -->
+    <section id="topics" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Topics of Interest</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <ul class="topics-list">
+                        <li>Point cloud compression, including traditional hybrid coding frameworks (e.g., prediction, transform coding, entropy coding, quantization, rate-distortion optimization) as well as end-to-end learning-based methods.</li>
+                        <li>Point cloud processing, including quality enhancement, denoising, sampling, and related techniques based on modern signal processing theory and deep neural networks.</li>
+                        <li>Point cloud analysis, including quality assessment, visual tracking, object detection, semantic segmentation, and recognition.</li>
+                        <li>High-reliability, low-delay transmission of 3D point clouds.</li>
+                        <li>3D Gaussian splatting and related techniques, including methods that treat 3D Gaussians as multi-dimensional point-cloud representations for rendering, reconstruction, or compression.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizers Section -->
+    <section id="organizers">
+        <div class="container">
+            <h2 class="section-title">Organizers</h2>
+            <div class="row g-4">
+                
+                <!-- Organizer 1: Hui Yuan -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card organizer-card">
+                        <div class="organizer-img-wrapper">
+                            <!-- 图片路径占位符：请将 assets/images/placeholder.svg 替换为实际照片 -->
+                            <img src="assets/images/hui_yuan.png" alt="Hui Yuan" class="organizer-img">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="organizer-name">Hui Yuan</h5>
+                            <p class="organizer-institution">Shandong University, China</p>
+                            <div class="bio-text">
+                                <p>Hui Yuan received the B.E. and Ph.D. degrees in telecommunication engineering from Xidian University, Xi’an, China, in 2006 and 2011, respectively.</p>
+                                <div class="collapse" id="bio1">
+                                    <p>In April 2011, he joined Shandong University, Ji’nan, China, as a Lecturer (April 2011–December 2014), an Associate Professor (January 2015-October 2016), and a Professor (September 2016). From January 2013-December 2014, and November 2017-February 2018, he also worked as a Postdoctoral Fellow (Granted by the Hong Kong Scholar Project) and a Research Fellow, respectively, with the Department of Computer Science, City University of Hong Kong, Hong Kong. From November 2020 to November 2021, he also worked as a Marie Curie Fellow (Granted by the Marie Skłodowska-Curie Individual Fellowships of European Commission) with the Faculty of Computing, Engineering and Media, De Montfort University, United Kingdom. From October 2021 to November 2021, he also worked as a visiting researcher (secondment of the Marie Skłodowska-Curie Individual Fellowships) with the Computer Vision and Graphics group, Fraunhofer Heinrich-Hertz-Institut (HHI), Germany. His current research interests include 3D visual coding, processing, and communication. He is serving as an Associate Editor for IEEE Transactions on Image Processing, IEEE Transactions on Circuits and Systems for Video Technology, IEEE Transactions on Consumer Electronics, IEEE Signal Processing Letters, and IET Image Processing, an Area Chair for IEEE ICME.</p>
+                                </div>
+                                <a class="btn btn-link" data-bs-toggle="collapse" href="#bio1" role="button" aria-expanded="false">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organizer 2: Yun Zhang -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card organizer-card">
+                        <div class="organizer-img-wrapper">
+                            <img src="assets/images/yun_zhang.jpg" alt="Yun Zhang" class="organizer-img">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="organizer-name">Yun Zhang</h5>
+                            <p class="organizer-institution">Sun Yat-Sen University, China</p>
+                            <div class="bio-text">
+                                <p>Yun Zhang received the Ph.D. degree in Computer Science from Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), Beijing, China, in 2010.</p>
+                                <div class="collapse" id="bio2">
+                                    <p>From 2010 to 2022, he was a Professor/Associate Professor/Assistant Professor with the Shenzhen Institutes of Advanced Technology (SIAT), CAS, Shenzhen, China. Since 2022, he is a Professor with the School of Electronics and Communication Engineering, Sun Yat-Sen University (SYSU), Guangdong, China. His research interests are in the field of multimedia communications and visual signal processing, including video compression, computational visual perception, VR/AR, and machine learning. Prof. Zhang has authored/co-authored 2 books and over 180 high quality scientific research papers on prestigious journals/transactions and conferences, such as IEEE T-IP, IEEE T-CSVT., and IEEE T-MM. In addition, he has filed over 50 CN/US/PCT patents on visual signal processing and more than 40 of them are granted. He is a Senior Member of IEEE, and serves as Associate Editor/Topic Editor/Editorial Board Member of APSIPA Transactions on Signal and Information Processing, Electronic Letters, and Sensors etc.</p>
+                                </div>
+                                <a class="btn btn-link" data-bs-toggle="collapse" href="#bio2" role="button" aria-expanded="false">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organizer 3: Wenhong Duan -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card organizer-card">
+                        <div class="organizer-img-wrapper">
+                            <img src="assets/images/Wenhong_Duan.jpg" alt="Wenhong Duan" class="organizer-img" style="object-position: top;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="organizer-name">Wenhong Duan</h5>
+                            <p class="organizer-institution">Shanghai Jiao Tong University, China</p>
+                            <div class="bio-text">
+                                <p>Wenhong Duan received the B.E. degree in computer science and technology from Wuhan University, Wuhan, China, in 2019 and the Ph.D. degree in computer science and engineering from Shanghai Jiao Tong University, Shanghai, China, where he was advised by Prof. Wen Gao and Prof. Siwei Ma.</p>
+                                <div class="collapse" id="bio3">
+                                    <p>His research interests include image compression and multimedia signal processing.</p>
+                                </div>
+                                <a class="btn btn-link" data-bs-toggle="collapse" href="#bio3" role="button" aria-expanded="false">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organizer 4: Xin Lu -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card organizer-card">
+                        <div class="organizer-img-wrapper">
+                            <img src="assets/images/xin_lu.jpg" alt="Xin Lu" class="organizer-img" style="object-position: top;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="organizer-name">Xin Lu</h5>
+                            <p class="organizer-institution">De Montfort University, UK</p>
+                            <div class="bio-text">
+                                <p>Xin Lu received the B.Sc. and M.Sc. degrees from Harbin Institute of Technology, Harbin, China, in 2008 and 2010, respectively, and the PhD degree in computer science from the University of Warwick, Coventry, U.K., in 2013.</p>
+                                <div class="collapse" id="bio4">
+                                    <p>He is currently an Associate Professor with the School of Computer Science and Informatics at De Montfort University (DMU) in Leicester, UK. Before joining DMU, he was a Lecturer (Assistant Professor) at the School of Electronics and Information Engineering, Harbin Institute of Technology (HIT) in China. He serves as a member of the IST/37 committee on “Coding of picture, audio, multimedia and hypermedia information” of the British Standard Institute (BSI), and is acting as UK Delegate for ISO/IEC JTC1/SC29 (a.k.a MPEG & JPEG). He has served on the editorial boards as an Associate Editor for IEEE Transactions on Circuits and Systems for Video Technology, IEEE Transactions on Broadcasting, IET Image Processing, etc. He has served as Lead Guest Editor for IET Image Processing Themed Issue on Advances in 3D point cloud processing and applications (2025) and participated in several academic events, including International Conference on Information and Multimedia Technology as Chapter Chair and TPC member (2025-2026), International Conference on Images, Signals, and Computing as Publicity co-chair and TPC member.</p>
+                                </div>
+                                <a class="btn btn-link" data-bs-toggle="collapse" href="#bio4" role="button" aria-expanded="false">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organizer 5: Raouf Hamzaoui -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card organizer-card">
+                        <div class="organizer-img-wrapper">
+                            <img src="assets/images/raouf_hamzaoui.jpg" alt="Raouf Hamzaoui" class="organizer-img">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="organizer-name">Raouf Hamzaoui</h5>
+                            <p class="organizer-institution">De Montfort University, UK</p>
+                            <div class="bio-text">
+                                <p>Raouf Hamzaoui received his doctoral degree from the University of Freiburg, Germany, in 1997. He served as an assistant professor in the Department of Computer Science at the University of Leipzig and in the Department of Computer and Information Science at the University of Konstanz.</p>
+                                <div class="collapse" id="bio5">
+                                    <p>In 2006, he joined De Montfort University, Leicester, where he is currently a Professor in Media Technology. He was Workshops Co-Chair of IEEE ICME 2020 and Technical Program Committee Co-Chair of IEEE MMSP 2017, and has served as an Area Chair for IEEE ICIP and IEEE ICME since 2021. He was on the Editorial Boards of the IEEE Transactions on Multimedia (2017–2021) and the IEEE Transactions on Circuits and Systems for Video Technology (2010–2016), receiving Best Associate Editor awards from both journals. He has served as Lead Guest Editor for the IEEE Transactions on Multimedia Special Issue on Hybrid Human–Artificial Intelligence for Multimedia Computing (2020), Guest Editor for the IEEE Open Journal of Circuits and Systems Special Section on IEEE ICME 2020, and co-organized several events, including the VCIP 2022 Special Session on 3D Point Clouds and the 1st International Workshop on Advances in Point Cloud Compression, Processing, and Analysis at ACM Multimedia 2022.</p>
+                                </div>
+                                <a class="btn btn-link" data-bs-toggle="collapse" href="#bio5" role="button" aria-expanded="false">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organizer 6: Sam Kwong -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card organizer-card">
+                        <div class="organizer-img-wrapper">
+                            <img src="assets/images/sam_kwong.jpg" alt="Sam Kwong" class="organizer-img">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="organizer-name">Sam Kwong</h5>
+                            <p class="organizer-institution">Lingnan University, Hong Kong</p>
+                            <div class="bio-text">
+                                <p>Sam Kwong is the Associate Vice-President (Strategic Research), J.K. Lee Chair Professor of Computational Intelligence, the Dean of the School of Graduate Studies and the Acting Dean of the School of Data Science of Lingnan University.</p>
+                                <div class="collapse" id="bio6">
+                                    <p>Professor Kwong is a distinguished scholar in evolutionary computation, artificial intelligence (AI) solutions, and image/video processing, with a strong record of scientific innovations and real-world impacts. Professor Kwong is one of the most highly cited researchers by Clarivate in 2022, 2023 and 2024. He has also been actively engaged in knowledge transfer between academia and industry. He was elevated to IEEE Fellow in 2014 for his contributions to optimization techniques in cybernetics and video coding. He was the President of the IEEE Systems, Man, and Cybernetics Society (SMCS) in 2021-22. He is a fellow of US National Academy of Inventors (NAI), Canadian Academy of Engineering and the Hong Kong Academy of Engineering (HKAE). Professor Kwong has a prolific publication record with over 350 journal articles, and 160 conference papers with an h-index of 93 based on Google Scholar. He is currently the associate editor of a number of leading IEEE transaction journals.</p>
+                                </div>
+                                <a class="btn btn-link" data-bs-toggle="collapse" href="#bio6" role="button" aria-expanded="false">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates Section -->
+    <section id="dates" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Important Dates</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <table class="dates-table">
+                        <tr>
+                            <th>Submission Deadline</th>
+                            <td>TBA</td>
+                        </tr>
+                        <tr>
+                            <th>Acceptance Notification</th>
+                            <td>TBA</td>
+                        </tr>
+                        <tr>
+                            <th>Camera-Ready Date</th>
+                            <td>TBA</td>
+                        </tr>
+                        <tr>
+                            <th>Workshop Date</th>
+                            <td>July 2026</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submission Section (Generic Placeholder as per standard) -->
+    <section id="submission">
+        <div class="container">
+            <h2 class="section-title">Submission</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="mb-4">Paper submission details will be announced soon. Please refer to the main ICME 2026 conference website for general guidelines.</p>
+                    <a href="#" class="btn btn-primary disabled">Submit Paper (Coming Soon)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 IEEE ICME Workshop on 3D Point Cloud Processing, Analysis, Compression, and Communication.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
