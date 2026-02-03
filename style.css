@@ -72,6 +72,15 @@ a:hover {
     text-decoration: none;
 }
 
+.submission-guidelines {
+    font-size: 0.95rem;
+    color: #666;
+    max-width: 700px;
+    margin: 15px auto 0;
+    line-height: 1.5;
+    font-style: italic;
+}
+
 /* Navigation */
 .navbar {
     background-color: #00629B;
